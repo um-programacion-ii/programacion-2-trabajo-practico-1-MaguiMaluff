@@ -6,9 +6,6 @@ public class Vehiculo {
     private int anio;
     private int capacidadCargaKg;
 
-    public void mostrarInformacion(){
-        System.out.println("Marca: " + this.marca + '\n' + "Patente: " + this.patente + '\n' + "Año: " + this.anio + '\n' + "Capacidad: " + this.capacidadCargaKg + "kg" + '\n' );
-    }
 
     public Vehiculo(String patente, String marca, int anio, int capacidadCargaKg) {
         this.patente = patente;
