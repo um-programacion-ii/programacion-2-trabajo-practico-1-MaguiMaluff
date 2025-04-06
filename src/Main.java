@@ -1,9 +1,8 @@
+import Clases.Auto;
 import Clases.Camion;
 import Clases.Vehiculo;
 import Clases.VehiculoPrinter;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -15,11 +14,17 @@ public class Main {
         Camion camion_1 = new Camion("IUV 357", "Mercedes", 2011, 4500, true);
         Camion camion_2 = new Camion("IS 813 YS", "Mercedes", 2025, 6000, false);
 
+        Auto auto_1 = new Auto("ABY 489", "Volkswagen", 1999, 5);
+        Auto auto_2 = new Auto("SR 489 HY", "Mercedes", 2020, 2);
+
+
         impresora.print(vehiculo_1);
         impresora.print(vehiculo_2);
         impresora.print(vehiculo_3);
         impresora.print(camion_1);
         impresora.print(camion_2);
+        impresora.print(auto_1);
+        impresora.print(auto_2);
 
 
     }
