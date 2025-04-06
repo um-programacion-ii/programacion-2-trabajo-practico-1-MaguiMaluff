@@ -13,11 +13,13 @@ public class Main {
         Vehiculo vehiculo_3 = new Vehiculo("DD 486 JS", "Peugeot", 2024, 400);
 
         Camion camion_1 = new Camion("IUV 357", "Mercedes", 2011, 4500, true);
+        Camion camion_2 = new Camion("IS 813 YS", "Mercedes", 2025, 6000, false);
 
         impresora.print(vehiculo_1);
         impresora.print(vehiculo_2);
         impresora.print(vehiculo_3);
         impresora.print(camion_1);
+        impresora.print(camion_2);
 
 
     }
