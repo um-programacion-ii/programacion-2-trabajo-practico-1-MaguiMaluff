@@ -1,6 +1,6 @@
 package Clases;
 
-public class Vehiculo {
+public class Vehiculo{
     private String patente;
     private String marca;
     private int anio;
